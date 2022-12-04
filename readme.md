@@ -102,3 +102,7 @@ During execution, script also prints the pearson correlation between the numeric
 #### Total Tweets
 
 This is a MR that simply counts the number of tweets in the archive of a given {MONTH} in {YEAR}. Run `./compile.sh` to compile the code. To execute MR, run `hadoop jar CountTotalTweets.jar CountTotalTweets {MONTHLY_TWEETS.json} {HDFS_OUTPUT_DIR}`.
+
+### vis
+
+This directory contains the python script used for simple analysis and visualization (heatmap) of correlation coefficients calculated in _temperatureTweetAnalysis.scala_
